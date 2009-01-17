@@ -1,0 +1,26 @@
+---
+name: WWW-Pastebin-NoPasteCom-Create
+version: 0.001
+author:
+  - "Zoffix <'zoffix@cpan.org'>"
+abstract: create new pastes on http://nopaste.com/ pastebin site
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Carp: 1.04
+  Class::Data::Accessor: 0.04001
+  HTTP::Request::Common: 5.822
+  LWP::UserAgent: 5.823
+  URI: 1.37
+  overload: 1.04
+build_requires:
+  Test::More: 0
+provides:
+  WWW::Pastebin::NoPasteCom::Create:
+    file: lib/WWW/Pastebin/NoPasteCom/Create.pm
+    version: 0.001
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
