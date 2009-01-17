@@ -3,7 +3,7 @@ package WWW::Pastebin::NoPasteCom::Create;
 use warnings;
 use strict;
 
-our $VERSION = '0.001';
+our $VERSION = '0.0102';
 
 use Carp;
 use URI;
@@ -76,7 +76,7 @@ sub paste {
     $args{file}
         and not -e $args{content}
         and return $self->_set_error(
-            "File $args{source} does not seem to exist"
+            "File $args{content} does not seem to exist"
         );
 
     @args{qw/language description/} = delete @args{qw/lang desc/};

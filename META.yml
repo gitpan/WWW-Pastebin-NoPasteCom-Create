@@ -1,6 +1,6 @@
 ---
 name: WWW-Pastebin-NoPasteCom-Create
-version: 0.001
+version: 0.0102
 author:
   - "Zoffix <'zoffix@cpan.org'>"
 abstract: create new pastes on http://nopaste.com/ pastebin site
@@ -19,7 +19,7 @@ build_requires:
 provides:
   WWW::Pastebin::NoPasteCom::Create:
     file: lib/WWW/Pastebin/NoPasteCom/Create.pm
-    version: 0.001
+    version: 0.0102
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
